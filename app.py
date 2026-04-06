@@ -256,7 +256,7 @@ overpaid_df  = market_df[
 st.markdown('<p class="nfl-header">NFL Contract Analyzer</p>', unsafe_allow_html=True)
 st.markdown(
     '<p class="nfl-sub">XGBoost + K-Means trained on 2021–2024 NFL stats and nflverse contracts. '
-    'Covers QB, RB, WR, and TE. Predictions are stats-based — injuries, scheme fit, '
+    'Covers QB, RB, WR, and TE. Predictions are stats-based, injuries, scheme fit, '
     'and negotiation leverage are not modeled. Active contracts signed 2020 and later only.</p>',
     unsafe_allow_html=True
 )
